@@ -62,7 +62,27 @@ Windows 11 (Host)
     └── GGUF Model (Local)
 
 Accessed via local Gradio UI (localhost only).
+---
 
+## 📸 Deployment Screenshots
+
+### 🐧 WSL Environment Initialization
+![WSL Setup](screenshots/wsl-setup.png)
+
+### 🧠 Model Loaded via LlamaCPP
+![Model Running](screenshots/model-loaded.png)
+
+### 💬 PrivateGPT Gradio UI (Localhost)
+![Gradio UI](screenshots/gradio-ui.png)
+
+---
+
+## 🔍 Verification
+
+- Model running fully offline
+- Bound to 127.0.0.1
+- No external API calls
+- RAG pipeline operational
 ---
 ## 📈 Use-Case Impact
 ## 🏢 For Organizations (Enterprise Security)
