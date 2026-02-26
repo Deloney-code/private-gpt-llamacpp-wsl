@@ -1,3 +1,4 @@
+
 # PrivateGPT 
 
 <a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2601" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -158,3 +159,7 @@ This project has been strongly influenced and supported by other amazing project
 [LlamaCpp](https://github.com/ggerganov/llama.cpp),
 [Chroma](https://www.trychroma.com/)
 and [SentenceTransformers](https://www.sbert.net/).
+
+# private-gpt-llamacpp-wsl
+PrivateGPT deployed locally using Llama 3.1 (GGUF) with WSL on Windows 11.
+
