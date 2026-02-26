@@ -1,5 +1,10 @@
 #🔐 PrivateGPT: Hardened Local AI Architecture (WSL/LlamaCPP)
+
+### 🔹 Localhost Network Binding Verification
+![Localhost Binding](screenshots/secure-localhost-binding.png)
+
 ## 📌 Executive Summary
+
 In an era where data privacy is the primary barrier to AI adoption, this project demonstrates a zero-trust, fully air-gapped deployment of a Large Language Model (LLM). By leveraging WSL and LlamaCPP, I have engineered a solution that allows organizations to utilize Retrieval Augmented Generation (RAG) without the risk of intellectual property leakage associated with cloud-based AI providers (e.g., OpenAI, Anthropic).
 
 ## 📌 Project Overview
@@ -64,7 +69,7 @@ Windows 11 (Host)
 Accessed via local Gradio UI (localhost only).
 ---
 
-## 📸 Deployment Screenshots
+## 📸 Deployment Screenshots(you can get more detailed screenshots in the screenshot foldr above)
 
 ### 🐧 WSL Environment Initialization
 ![WSL Setup](screenshots/wsl-setup.png)
@@ -75,6 +80,17 @@ Accessed via local Gradio UI (localhost only).
 ### 💬 PrivateGPT Gradio UI (Localhost)
 ![Gradio UI](screenshots/gradio-ui.png)
 
+### 🔹 Model Successfully Loaded
+![Model Initialized](screenshots/model-initialized.png)
+
+### 🔹 Secure RAG Ingestion Process
+![RAG Ingestion](screenshots/rag-ingestion.png)
+
+### 🔹 Local Gradio UI (Bound to 127.0.0.1)
+![Gradio UI](screenshots/gradio-interface.png)
+
+### 🔹 Localhost Network Binding Verification
+![Localhost Binding](screenshots/secure-localhost-binding.png)
 ---
 
 ## 🔍 Verification
@@ -105,7 +121,7 @@ Offline Reliability: Works without internet access, providing a reliable AI assi
 4. Downloaded Meta-Llama-3.1-8B GGUF model  
 5. Configured `settings-llamacpp.yaml`  
 6. Launched locally via:
-
+Full documentation on installation, dependencies, configuration, running the server, deployment options, ingesting local documents, API details and UI features can be found here: https://docs.privategpt.dev/
 ```bash
 poetry run python -m private_gpt
 ```
