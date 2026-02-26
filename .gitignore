@@ -29,3 +29,15 @@ __pycache__/
 
 # macOS
 .DS_Store
+# Ignore the large model files but keep the folder
+models/*.gguf
+
+# Ignore all Python temporary files
+__pycache__/
+
+# Ignore your private secret keys
+.env
+
+# Ignore your local machine settings
+settings.yaml
+settings-*.yaml
